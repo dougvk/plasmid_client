@@ -1,0 +1,259 @@
+body {
+  font-family:'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+h1 {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  width: 100%;
+  height: 65px;
+  margin: 0px auto 10px;
+  font-size: 62px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button.copy {
+  margin-top: 24px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #333;
+  font-weight: 400;
+}
+.button.copy:hover {
+  background-color: #333;
+  color: white;
+}
+.results {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 200px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  border-top: 1px solid #1c1c1c;
+  background-color: white;
+}
+.results-window {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.search {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  height: 200px;
+  margin-top: -200px;
+  padding-top: 24px;
+  background-color: #262626;
+}
+.bottom {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.search-label {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+.submit {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 3px;
+  background-color: white;
+  color: #262626;
+  font-weight: 400;
+}
+.dna-field {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  margin-bottom: 16px;
+  float: none;
+  direction: ltr;
+  text-transform: uppercase;
+}
+.dna-search {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  margin-top: 8px;
+}
+.results-container {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.dna-bracket {
+  font-weight: 600;
+  text-align: center;
+}
+.dna-bracket:hover {
+  color: #db2525;
+}
+.files {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 200px;
+  background-color: #d6d6d6;
+}
+.tab {
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 2px 2px 0px 0px;
+  background-color: #262626;
+  text-align: center;
+}
+.text-button {
+  display: inline-block;
+  padding: 4px;
+  color: white;
+  font-weight: 600;
+}
+.tab-file {
+  position: absolute;
+  top: -30px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 2px 2px 0px 0px;
+  background-color: #d6d6d6;
+  text-align: center;
+}
+.success-message {
+  background-color: transparent;
+}
+.scroll-text {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-top: 180px;
+  text-align: center;
+}
+.number {
+  display: inline-block;
+  float: left;
+}
+.number.left {
+  font-weight: 600;
+}
+.number.right {
+  float: right;
+  font-weight: 600;
+}
+.line {
+  width: 20%;
+}
+.file-list {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 105px;
+  margin-top: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.file-name {
+  display: inline-block;
+  margin-top: 24px;
+  margin-right: 54px;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.bracket-row {
+  margin-bottom: 16px;
+}
+html.w-mod-js *[data-ix="slide-down-search"] {
+  -webkit-transform: translate(0px, 195px);
+  -ms-transform: translate(0px, 195px);
+  -o-transform: translate(0px, 195px);
+  transform: translate(0px, 195px);
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+}

@@ -13,3 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require jquery
+//= require bootstrap-sprockets
+//= require extra
+//= require modernizr
+//= require webflow
+//= require underscore

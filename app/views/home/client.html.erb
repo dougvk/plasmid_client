@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Fri Sep 26 2014 15:15:04 GMT+0000 (UTC) -->
+<html data-wf-site="5424745748c6a298065c0809" data-wf-page="5424745748c6a298065c080a">
+<head>
+  <meta charset="utf-8">
+  <title>Plasmids</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+      }
+    });
+  </script>
+</head>
+<body>
+  <div>
+    <div class="w-container results-window">
+      <div class="w-clearfix scroll-text">
+        <h1 id="sequence">AGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGCAGCTCGATTACATTAGC</h1>
+        <div class="number left" id="left-idx">572</div>
+        <div class="number right" id="right-idx">594</div><!-- <a class="button copy" href="#">Copy</a> -->
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="files">
+      <div class="tab-file" data-ix="files-trigger" id="files-container">
+        <div class="text-button">F</div>
+      </div>
+      <div class="w-container file-list" id="file-list">
+      </div>
+    </div>
+    <div class="results">
+      <div class="w-container results-container" id="chunks-container">
+      </div>
+    </div>
+    <div class="search">
+      <div class="tab" data-ix="pull-up-search" id="search">
+        <div class="text-button">S</div>
+      </div>
+      <div class="w-container search-box">
+        <div class="w-form">
+          <form class="dna-search" id="email-form" name="email-form" data-name="Email Form" method="post">
+            <textarea class="w-input dna-field" id="DNA-Search" placeholder="DNA, please." name="DNA-Search" data-name="DNA Search" required="required"></textarea>
+            <input class="w-button submit" type="submit" id="solve" value="Find" data-wait="Just a minute...." wait="Just a minute....">
+          </form>
+          <div class="w-form-done success-message">
+            <p>One minute, please...</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form :(</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
